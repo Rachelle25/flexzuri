@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(252, 249, 245);
+
+}
+
+main{
+    width: 50%;
+    /*margin: auto;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+
+}
+
+.first{
+    background-color: white;
+    padding: 3em;
+}
+.first h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.first .pt{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: rgb(217, 15, 217);
+}
+.content{
+    display: flex;
+}
+
+.second{
+    background-color: rgb(36, 163, 163);
+    padding: 2em;
+
+}
+
+.third{
+    background-color: rgb(114, 224, 224);
+    padding: 2em;
+
+}
